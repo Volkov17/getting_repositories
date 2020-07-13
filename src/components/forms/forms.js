@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import Getting from '../../services/getRep';
 import Modal from '../modal'
-import form from './forms'
+import './forms.css'
 export default class Form extends Component {
     
     constructor(props){

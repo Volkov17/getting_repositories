@@ -1,2 +1,2 @@
-import Form from './form'
+import Form from './forms'
 export default Form;

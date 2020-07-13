@@ -22,10 +22,12 @@ export default class App extends Component {
 
   render() {
     const count = this.countRes();
+    return(
      <>
      <AppHeader count = {count}/>
      <Forms/>
      </>
+    )
   }
 }
 
