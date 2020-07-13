@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import Getting from '../../services/getRep';
 import Modal from '../modal'
-
+import form from './forms'
 export default class Form extends Component {
     
     constructor(props){
@@ -49,7 +49,7 @@ export default class Form extends Component {
         return (
             <> 
                 {repos.map(({ name, language , updated_at, ...rest }) => 
-                            <div onClick={() => handleClick(rest)}>
+                            <div className = "form" onClick={() => handleClick(rest)}>
                                 <ul>
                                     <li>
                                         <span>name</span>
