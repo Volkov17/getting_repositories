@@ -11,18 +11,8 @@ export default class Getting {
         return some;
     };
     
-    getRepos() {
-      return this.getRes('https://api.github.com/users/Volkov17/repos?per_page=1000');
-    }
-    
+    getRepos(url = 'https://api.github.com/users/Volkov17/repos?per_page=1000' ) {
+        return this.getRes(url);
+    } 
 }
-    /*
-    const ar = new Getting();
-    
-    ar.getName().then(res=> {
-      //let obj = JSON.stringify(res);
-      //console.log(obj);
-    
-      res.forEach(item => console.log(item.name));
-    });
-    */
+  

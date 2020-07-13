@@ -1,8 +1,7 @@
 .app-header {
     align-items: flex-end;
-    justify-content: space-between;
-  
-  }
+    /*justify-content: space-between;*/
+}
   
   .app-header h1 {
     /* width: 150px;
